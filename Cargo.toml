@@ -8,5 +8,5 @@ cortex-m = "0.7"
 cortex-m-rt = "0.7"
 embedded-hal = "0.2"
 panic-reset = "0.1"
-rp2040-boot2 = "0.2"
-rp2040-hal = "0.5"
+rp2040-boot2 = "0.3"
+rp2040-hal = { version = "0.9", features = ["critical-section-impl"] }
